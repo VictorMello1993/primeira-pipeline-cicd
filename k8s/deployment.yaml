@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: 'victormello93/aula-primeira-pipeline:latest'
+        image: 'victormello93/aula-primeira-pipeline'
         ports:
         - containerPort: 5000
 --- 
