@@ -41,6 +41,6 @@ jobs:
       uses: Azure/k8s-deploy@v5
       with:
          manifests: |
-          ./k8s/deployment.yml
-         images: | 
+          ./k8s/deployment.yaml
+         images: |
           'victormello93/aula-primeira-pipeline:${{github.run_number}}'         
